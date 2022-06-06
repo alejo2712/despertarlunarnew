@@ -26,114 +26,152 @@
     <meta property="twitter:description" content="With Meta Tags you can edit and experiment with your content then preview how your webpage will look on Google, Facebook, Twitter and more!">
     <meta property="twitter:image" content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png">
 
+    <!-- CSS styles.css import-->
+    <link rel="stylesheet" href="css/styles.css"> 
+
     <!-- Bootstrap -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
 <body>
+  <header>
+    <!-- No es prioridad que el nav quede fijo -->
+        <nav class="navbar navbar-expand-lg" id="navbg">
+          <div class="container-fluid">
+              <a class="navbar-brand text-white" href="#">Navbar</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="n"></span>
+                </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item text-prim">
+                    <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Contacto</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Productos
+                    </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="/html/productos.html">Collares</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+                  </li>
+                </ul>
+                      <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                      </form>
+              </div>
+            </div>
+          </nav>
+  </header>
 
-    <div>
-        <header>
-            <nav class="navbar navbar-inverse">
-                <div class="container-fluid">
-                    <div class="collapse navbar-collapse">
-                        <ul class="nav navbar-nav">    
-                            <li class="active"><a href="index.html"> Inicio</a></li>
-                            <li class="dropdown">
-                                <a class="dropdown-toggle" data-toggle="dropdown" href="#">Productos
-                                <span class="caret"></span></a>
-                                <ul class="dropdown-menu">
-                                <li><a href="#">Piedras</a></li>
-                                <li><a href="#">Colgantes</a></li>
-                                <li><a href="#">Anillos</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="http://localhost:5500/proyecto%20final/html/novedades.html">Novedades</a></li>
-                            <li><a href="http://localhost:5500/proyecto%20final/html/cursos.html">Cursos</a></li>
-                            <li><a href="http://localhost:5500/proyecto%20final/html/contacto.html">Contacto</a></li>
-                        </ul>
-                        <ul class="nav navbar-nav navbar-right">
-                            <li><a href="#"><span class="glyphicon glyphicon-user"></span> Your Account</a></li>
-                            <li><a href="#"><span class="glyphicon glyphicon-shopping-cart"></span> Cart</a></li>
-                        </ul>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-6">
+        Intro de Despertarlunar
+      </div>
+      <div class="col-md-6 p-0 imgbanner">
+        <img src="images/astro.jpeg" class="img-fluid" width="30%" alt="Astrologia">
+      </div>
+    </div>
+    <div class="row bg-black">
+      <div class="col-md-6">
+        Luna ascendente en.........
+    </div>
+      <!-- Cafecito y mitad de tamaño de lo actual-->
+      <div class="col-md-6 p-0 imgbanner">
+        <img src="images/astro.jpeg" class="img-fluid" width="30%" alt="Astrologia">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12 p-0">
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="images/a1.jpeg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="images/a2.jpeg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="images/a3.jpeg" class="d-block w-100" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-3">
+        <div class="card" style="width: 18rem;">
+          <img class="card-img-top" src="..." alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Piedras</h5>
+            <p class="card-text">Cada piedra tiene un significado</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card" style="width: 18rem;">
+          <img class="card-img-top" src="..." alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Colgantes</h5>
+            <p class="card-text">Cada piedra tiene un significado</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card" style="width: 18rem;">
+          <img class="card-img-top" src="..." alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Collares</h5>
+            <p class="card-text">Cada piedra tiene un significado</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card" style="width: 18rem;">
+          <img class="card-img-top" src="..." alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Anillos</h5>
+            <p class="card-text">Cada piedra tiene un significado</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+  </div>
+  </div>
+        <footer>
+            <div class="container-fluid text-center navbar-fixed-bottom">
+                <div class="row">
+                    <div class="col-sm-3">
+                        <form class="form-inline">Comunidad Despertar:
+                            <input type="email" class="form-control" size="50" placeholder="Email Address">
+                            <button type="button" class="btn btn-danger">Sign Up</button>
+                        </form>
                     </div>
-                </div>
-                </nav>
-        </header>
-        
-        <div class="container">    
-            <div class="row">
-            <div class="col-sm-4">
-                <div class="panel panel-primary">
-                <div class="panel-heading">Collares</div>
-                <div class="panel-body"><img src="images/collar.png" class="img-responsive" style="width:100%" alt="Image"></div>
-                <div class="panel-footer">Encuentra la indicada para vos</div>
-                </div>
-            </div>
-            <div class="col-sm-4"> 
-                <div class="panel panel-danger">
-                <div class="panel-heading">Pulseras</div>
-                <div class="panel-body"><img src="images/brazalete.png" class="img-responsive" style="width:100%" alt="Image"></div>
-                <div class="panel-footer">Busca la tuya</div>
-                </div>
-            </div>
-            <div class="col-sm-4"> 
-                <div class="panel panel-success">
-                <div class="panel-heading">Piedras</div>
-                <div class="panel-body"><img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image"></div>
-                <div class="panel-footer">Buy 50 mobiles and get a gift card</div>
-                </div>
-            </div>
-            </div>
-        </div><br>
-        
-        <div class="container">    
-            <div class="row">
-            <div class="col-sm-4">
-                <div class="panel panel-primary">
-                <div class="panel-heading">Anillos</div>
-                <div class="panel-body"><img src="images/anillo.png" class="img-responsive" style="width:100%" alt="Image"></div>
-                <div class="panel-footer">Consigue el anillo perfecto para la ocasión</div>
-                </div>
-            </div>
-            <div class="col-sm-4"> 
-                <div class="panel panel-primary">
-                <div class="panel-heading">Amuletos</div>
-                <div class="panel-body"><img src="images/charm.png" class="img-responsive" style="width:100%" alt="Image"></div>
-                <div class="panel-footer">Buy 50 mobiles and get a gift card</div>
-                </div>
-            </div>
-            <div class="col-sm-4"> 
-                <div class="panel panel-primary">
-                <div class="panel-heading">Diges</div>
-                <div class="panel-body"><img src="images/dige.png" class="img-responsive" style="width:100%" alt="Image"></div>
-                <div class="panel-footer">Descubre el dige que quieres</div>
-                </div>
-            </div>
-            </div>
-        </div><br><br>
-          
-        <footer class="container-fluid text-center navbar-fixed-bottom"> 
-            <div class="row">
-                <div class="col-sm-3">
-                    <img src="images/logo.jpeg" alt="No veo el fondo de pantalla">
-                </div>
-                <div class="col-sm-3">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d13145.260784704315!2d-58.720479864184824!3d-34.54557403759166!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sar!4v1646850253210!5m2!1ses-419!2sar" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-                </div>
-                <div class="col-sm-3">
-                    <form class="form-inline">Get deals:
-                        <input type="email" class="form-control" size="50" placeholder="Email Address">
-                        <button type="button" class="btn btn-danger">Sign Up</button>
-                    </form>
-                </div>
-                <div class="col-sm-3">
-                    <li class="list-unstyled"> <a href="https://wa.me/1121809178"><img src="images/wappicon.png" alt="Whatsapp"></span> Envianos un Whatsapp</a> </li>
-                    <li class="list-unstyled"> <a href="circulodeabogados@gmail.com"> circulodeabogados@gmail.com</a> 
+                    <div class="col-sm-3">
+                        <li class="list-unstyled"> <a href="https://wa.me/1121809178"><img src="images/wappicon.png" alt="Whatsapp"></span></a> </li>
+                    </div>
                 </div>
             </div>
         </footer>
-    </div>
 </body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </html>
