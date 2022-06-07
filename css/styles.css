@@ -2,12 +2,12 @@
     background-color: #AAA574;
 }
 
-#bgimg {
+.navheight {
     height: 50px;
+}
+
+#bgimg {
     background-image: url(../images/astro.jpeg);
-    background-position: center;
-    background-size: cover;
-    filter: grayscale(70%);
 }
 
 #navlogo {
