@@ -1,5 +1,5 @@
 #navbg {
-    background-color: #AAA574;
+    background-color: #663399;
 }
 
 .navheight {
@@ -25,3 +25,25 @@
 .carousel-inner{
     height: 400px;
    }
+
+.home__products_cards {
+    height: 170px;
+}
+
+footer {
+    background-color: #b1a5c9;
+}
+
+#nav-font-color {
+    color: white;
+}
+
+.navbar-nav > li > .dropdown-menu { background-color: #993399; }
+
+.main-intro-bg {
+    background: linear-gradient(to bottom, #996699, white);
+}
+
+.section-cards-bg {
+    background: linear-gradient(to bottom, white, #996699);
+}
