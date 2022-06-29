@@ -47,3 +47,10 @@ footer {
 .section-cards-bg {
     background: linear-gradient(to bottom, white, #996699);
 }
+
+.fit-image{
+    width: 20px;
+    object-fit: cover;
+    height: 10px; /* only if you want fixed height */
+}
+
