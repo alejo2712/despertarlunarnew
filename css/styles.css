@@ -1,5 +1,10 @@
 #navbg {
-    background-color: #663399;
+    /*background-color: #663399;*/
+    background-color: white;
+}
+
+#nav-font-color {
+    /*color: white;*/
 }
 
 .navheight {
@@ -32,10 +37,7 @@
 
 footer {
     background-color: #b1a5c9;
-}
-
-#nav-font-color {
-    color: white;
+    position: bottom;
 }
 
 .navbar-nav > li > .dropdown-menu { background-color: #993399; }
@@ -45,7 +47,7 @@ footer {
 }
 
 .section-cards-bg {
-    background: linear-gradient(to bottom, white, #996699);
+    background: linear-gradient(to bottom, white, white);
 }
 
 .fit-image{

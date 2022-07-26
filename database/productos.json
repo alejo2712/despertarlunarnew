@@ -1,0 +1,43 @@
+{
+    "productos": [{
+            "id": 1,
+            "imagen": "../images/a1.jpeg",
+            "tipo": "piedras",
+            "nombre": "piedra1",
+            "precio": "$10",
+            "cantidad": ""
+        },
+        {
+            "id": 2,
+            "imagen": "../images/a1.jpeg",
+            "tipo": "piedras",
+            "nombre": "piedra2",
+            "precio": "$20",
+            "cantidad": ""
+        },
+        {
+            "id": 3,
+            "imagen": "../images/a1.jpeg",
+            "tipo": "piedras",
+            "nombre": "piedra3",
+            "precio": "$30",
+            "cantidad": ""
+        },
+        {
+            "id": 4,
+            "imagen": "../images/a1.jpeg",
+            "tipo": "piedras",
+            "nombre": "piedra4",
+            "precio": "$40",
+            "cantidad": ""
+        },
+        {
+            "id": 5,
+            "imagen": "../images/a1.jpeg",
+            "tipo": "piedras",
+            "nombre": "piedra5",
+            "precio": "$50",
+            "cantidad": ""
+        }
+    ]
+}
