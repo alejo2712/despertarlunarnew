@@ -1,6 +1,6 @@
 {
     "productos": [{
-            "id": 1,
+            "id": "1",
             "imagen": "../images/a1.jpeg",
             "tipo": "piedras",
             "nombre": "piedra1",
@@ -8,7 +8,7 @@
             "cantidad": ""
         },
         {
-            "id": 2,
+            "id": "2",
             "imagen": "../images/a1.jpeg",
             "tipo": "piedras",
             "nombre": "piedra2",
@@ -16,7 +16,7 @@
             "cantidad": ""
         },
         {
-            "id": 3,
+            "id": "3",
             "imagen": "../images/a1.jpeg",
             "tipo": "piedras",
             "nombre": "piedra3",
@@ -24,7 +24,7 @@
             "cantidad": ""
         },
         {
-            "id": 4,
+            "id": "4",
             "imagen": "../images/a1.jpeg",
             "tipo": "piedras",
             "nombre": "piedra4",
@@ -32,7 +32,7 @@
             "cantidad": ""
         },
         {
-            "id": 5,
+            "id": "5",
             "imagen": "../images/a1.jpeg",
             "tipo": "piedras",
             "nombre": "piedra5",

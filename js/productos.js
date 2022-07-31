@@ -34,7 +34,7 @@ function listarProductos() {
                                     $("<button>").addClass("btn btn-secondary btn-detalle w-100 text-center me-3").text("Ver Detalle").attr({
                                         "data-elemento": JSON.stringify(item)
                                     }),
-                                    $("<button>").addClass("btn btn-danger btn-agregar-carrito w-100 text-center me-3").data("id", item.id).text("Agregar al carrito")
+                                    $("<button>").addClass("btn btn-primary btn-agregar-carrito w-100 text-center me-3").data("id", item.id).text("Agregar al carrito")
                                 )
                             )
                         )
